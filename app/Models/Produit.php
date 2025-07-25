@@ -1,7 +1,7 @@
 <?php
-
+namespace App\Models;
 require_once __DIR__ . '/../../config/db.php';
- // pour getMongoCollection()
+
 use MongoDB\BSON\ObjectId;
 
 class Produit

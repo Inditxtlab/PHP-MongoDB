@@ -1,7 +1,6 @@
 <?php
-// /app/controllers/ProduitController.php
-
 namespace App\Controllers;
+
 use App\Models\Produit;
 
 class ProduitController
@@ -12,6 +11,7 @@ class ProduitController
 //Produit::tous() appelle une méthode statique du modèle Produit
 // Cela signifie qu’on n’a pas besoin d’instancier un objet pour l’utiliser.→ $produits est un tableau d'objets Produit
 //Chaque objet représente un document stocké dans MongoDB.
+
         require __DIR__ . '/../views/produits/home.php';
     }
 

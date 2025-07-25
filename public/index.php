@@ -1,9 +1,7 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
-require_once __DIR__ . '/../app/Controllers/ProduitController.php';
-require_once __DIR__ . '/../app/Models/Produit.php';
-require_once __DIR__ . '/../config/db.php';
+// pour debugge le autoload: var_dump(class_exists('App\Models\Produit')); // doit retourner true
 
 use App\Controllers\ProduitController;
 
